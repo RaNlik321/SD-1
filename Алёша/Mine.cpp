@@ -83,7 +83,7 @@ int main() {
 	setlocale(LC_ALL, "ru");
 	const int size = 8;
 	int ar[size]{};
-
+	da
 		for (int i = size;i >= 0; i--) {
 			std::cin >> ar[i];
 			std::cout << ar[i];
