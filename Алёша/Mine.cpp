@@ -90,48 +90,23 @@ rub-rub/100*5*/
 		return 0;
 }*/
 
-void del(double num1, double num2) {
-	std::cout << "результатом деления стало: " << num1 / num2;
-}
-
-void Umno(double num1, double num2) {
-	std::cout << "результатом умножения стало: " << num1 * num2;
-}
-
-void Min(double num1, double num2) {
-	std::cout << "результатом вычитания стало: " << num1 - num2;
-}
-
-void Plus (double num1, double num2){
-	std::cout << "результатом сложения стало: " << num1 + num2;
+void del(int arr[],int arr2[],int arr3[],int size, int size2, int size3) {
+	for (size<0, i
+		.0000
+		.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+		)
 }
 
 int main() 
 {
 	setlocale(LC_ALL, "ru");
-	double num1 = 0;
-	double num2 = 0;
-	double rez = 0;
-	char sm;
+	const int size = 5;
+	const int sizetwo = 5;
+	const int sizetri = 5;
+	int arr[size];
+	int arr2[sizetwo];
+	int arr2[sizetri];
 
-	std::cout << "Первое число => ";
-	std::cin >> num1;
-	std::cout << "Операция => ";
-	std::cin >> sm;
-	std::cout << "Второе число => ";
-	std::cin >> num2;
-	if (sm == '+') {
-		Plus(num1, num2);
-	}
-	else if (sm == '-') {
-		Min(num1, num2);
-	}
-	else if (sm == '*') {
-		Umno(num1, num2);
-	}
-	else {
-		del(num1, num2);
-	}
 	return 0;
 }
 
